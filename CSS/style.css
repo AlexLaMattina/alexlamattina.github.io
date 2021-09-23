@@ -1,0 +1,53 @@
+
+head {
+    text-align:center;
+}
+body {
+    text-align:center; 
+    background-color: rgb(199, 224, 252); 
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.aboutme {
+    margin:0 auto; 
+    width:50%;
+}
+
+  .nav a {
+    color:black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .nav a:hover {
+    background-color: rgba(221, 221, 221, 0.726);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .nav a.active {
+    background-color: #FFD200;
+    color: white;
+  }
+
+  .nav a.far {
+    float: right;
+  }
+
+h1 {
+    font-family: cursive;
+}
+
+
+
+img.portrait{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+
+ 
