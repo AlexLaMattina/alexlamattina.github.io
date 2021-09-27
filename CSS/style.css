@@ -9,6 +9,7 @@ body {
     
 }
 
+
 .aboutme {
     margin:0 auto; 
     width:50%;
@@ -26,6 +27,11 @@ body {
     background-color: rgba(221, 221, 221, 0.726);
     color: black;
   }
+
+.contactform {
+ 
+ text-align: center;
+}
   
   /* Add a color to the active/current link */
   .nav a.active {
