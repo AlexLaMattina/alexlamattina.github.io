@@ -60,13 +60,27 @@ img.portrait{
 
 }
 
-input[type=text], input[type=password], input[type=tel], input[type=email], input[type=submit]{
+
+input[type=text], input[type=tel], input[type=email], input[type=submit]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 2px solid #ccc;
     box-sizing: border-box;
+
   }
 
- 
+input[type=submit]{
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+  }
