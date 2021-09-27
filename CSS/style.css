@@ -9,13 +9,7 @@ body {
     
 }
 
-
-.aboutme {
-    margin:0 auto; 
-    width:50%;
-}
-
-  .nav a {
+.nav a {
     color:black;
     text-align: center;
     padding: 15px;
@@ -23,23 +17,17 @@ body {
     font-size: 20px;
   }
   
-  .nav a:hover {
+.nav a:hover {
     background-color: rgba(221, 221, 221, 0.726);
     color: black;
   }
-
-.contactform {
- 
- text-align: center;
-}
   
-  /* Add a color to the active/current link */
-  .nav a.active {
+.nav a.active {
     background-color: #FFD200;
     color: white;
   }
 
-  .nav a.far {
+.nav a.far {
     float: right;
   }
 
@@ -47,13 +35,38 @@ h1 {
     font-family: cursive;
 }
 
-
-
 img.portrait{
     width: 10px;
     height: 10px;
     border-radius: 50%;
 
 }
+
+.aboutme {
+    margin:0 auto; 
+    width:50%;
+}
+
+.conform {
+    text-align: left;
+    display: inline-block;
+    border-radius: 10px;
+    border: 3px solid #f1f1f1;
+    background-color: white;
+    padding: 25px;
+    width:50%;
+    margin: 20px;
+
+
+}
+
+input[type=text], input[type=password], input[type=tel], input[type=email], input[type=submit]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+  }
 
  
