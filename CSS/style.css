@@ -9,27 +9,33 @@ body {
     
 }
 
+.nav {
+    background-color: #3b434d7a;  
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    overflow: hidden;
+
+}
+
 .nav a {
     color:black;
     text-align: center;
+    display: inline-block;
     padding: 15px;
     text-decoration: none;
     font-size: 20px;
-  }
+}
   
 .nav a:hover {
     background-color: rgba(221, 221, 221, 0.726);
     color: black;
-  }
+}
   
 .nav a.active {
-    background-color: #FFD200;
-    color: white;
-  }
+    background-color:rgba(221, 221, 221, 0.726);    
+}
 
-.nav a.far {
-    float: right;
-  }
 
 h1 {
     font-family: cursive;
@@ -73,7 +79,7 @@ input[type=text], input[type=tel], input[type=email], input[type=submit]{
     border: 2px solid #ccc;
     box-sizing: border-box;
 
-  }
+}
 
 input[type=submit]{
     cursor: pointer;
@@ -87,4 +93,4 @@ textarea {
     border: 2px solid #ccc;
     box-sizing: border-box;
     resize: vertical;
-  }
+}
