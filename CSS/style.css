@@ -35,6 +35,10 @@ h1 {
     font-family: cursive;
 }
 
+li {
+    text-align: left;
+}
+
 img.portrait{
     width: 10px;
     height: 10px;
