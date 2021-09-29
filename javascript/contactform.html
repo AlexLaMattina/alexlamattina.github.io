@@ -10,20 +10,6 @@
             emailjs.init('user_0AW91tBqmQpwLHbzEa05P');
         })();
     </script>
-    <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                this.contact_number.value = Math.random() * 100000 | 0;
-                emailjs.sendForm('service_8sgpquq', 'template_qjlabbh', this)
-                    .then(function() {
-                        console.log('SUCCESS!');
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
 </head>
 <body>
    <div class = "nav">
@@ -55,10 +41,10 @@
 
         <textarea id="user_message" name="user_message" placeholder="Your Message..." style="height:200px"></textarea>
 
-        <input type="submit" value="Send">
+        <input type="submit" value="Submit">
         </form>
 
     </div>
-
+    <script src='contactform.js'></script>
 </body>
 </html>
