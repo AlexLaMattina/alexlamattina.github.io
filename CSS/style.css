@@ -45,9 +45,9 @@ li {
     text-align: left;
 }
 
-img.portrait{
-    width: 10px;
-    height: 10px;
+img{
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
 
 }
