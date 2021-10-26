@@ -1,11 +1,13 @@
-
+* {
+    box-sizing: border-box;
+  }
 head {
     text-align:center;
 }
 body {
     text-align:center; 
     background-color: rgb(199, 224, 252); 
-    font-family: 'Courier New', Courier, monospace;
+    font-family:  'Courier New', Courier, monospace;
     
 }
 
@@ -86,25 +88,28 @@ body {
 
 
 h1 {
-    font-family: cursive;
-}
-
-li {
+    font-family: 'PingFang TC';
     text-align: left;
 }
 
-img{
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
+
+
+.selfie{
+    width: 600px;
+    height: 400px;
+    border-radius: 20%;
+    
 
 }
 
-.aboutme {
-    margin:0 auto; 
-    margin-bottom: 100px;
-    width:50%;
+.imgcontainer{
+    text-align: left;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
+
+
 
 .conform {
     text-align: left;
@@ -187,4 +192,41 @@ footer {
 .downloadbtn:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
  
+}
+
+.info{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    display: block;
+}
+
+.home:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.name{
+    justify-content: center;
+    display: block;
+}
+
+h1{
+    margin-left: 200px;
+}
+
+.aboutme{
+    margin-top: 125px;
+    width: 75%;
+    font-size: 20px;
+}
+
+h2{
+    margin: 0;
+}
+.sgimg{
+    height: 200px;
+    width: 600px;
+    margin-bottom: 20px;
 }
