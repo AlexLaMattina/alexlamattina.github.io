@@ -201,11 +201,12 @@ footer {
     display: block;
 }
 
-.home:after{
+.home:after, .projectdarien:after, .educationalmodel:after{
     content: "";
     display: table;
     clear: both;
 }
+
 
 .name{
     justify-content: center;
@@ -229,4 +230,24 @@ h2{
     height: 200px;
     width: 600px;
     margin-bottom: 20px;
+}
+
+.dashboard{
+    justify-content: left;
+
+}
+.educationalmodel{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.map,.model{
+    justify-content: left;
+    height:400px;
+    width:700px;
+
+}
+ul{
+    list-style: none;
 }
