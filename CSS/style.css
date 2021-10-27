@@ -201,7 +201,7 @@ footer {
     display: block;
 }
 
-.home:after, .projectdarien:after, .educationalmodel:after{
+.home:after, .projectdarien:after, .educationalmodel:after, .maizemaster:after{
     content: "";
     display: table;
     clear: both;
@@ -236,18 +236,25 @@ h2{
     justify-content: left;
 
 }
-.educationalmodel{
+.educationalmodel, .maizemaster{
     margin-top: 100px;
     margin-bottom: 100px;
 
 }
 
-.map,.model{
+.map,.model, .app{
     justify-content: left;
     height:400px;
     width:700px;
 
 }
+
+
+
 ul{
     list-style: none;
+}
+
+li{
+    margin: 5px;
 }
