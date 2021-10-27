@@ -175,7 +175,7 @@ footer {
 }
 
 .resumepage {
-    margin: 50px;
+    margin-bottom: 100px;
 }
 
 .download{
@@ -231,7 +231,7 @@ h2{
 .sgimg{
     height: 200px;
     width: 600px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .dashboard{
