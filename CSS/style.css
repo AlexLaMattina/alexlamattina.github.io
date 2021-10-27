@@ -6,7 +6,7 @@ head {
 }
 body {
     text-align:center; 
-    background-color: rgb(199, 224, 252); 
+    background-color: rgb(235, 240, 245); 
     font-family:  'Courier New', Courier, monospace;
     margin: 0px;
     
@@ -15,6 +15,7 @@ body {
 
 .nav {
     background-color: #3b434d7a; 
+    font-family: "Helvetica Neue", "Arial", sans-serif;
     top: 0px;
     width: 100%;
     overflow: hidden;
@@ -50,7 +51,6 @@ body {
   
 .dropdown .dropdownbtn {
     background-color: transparent;
-    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     display: inline-block;
     padding: 15px;
@@ -89,8 +89,7 @@ body {
 
 
 h1 {
-    font-family: 'PingFang TC';
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -215,12 +214,10 @@ footer {
     display: block;
 }
 
-h1{
-    margin-left: 200px;
-}
+
 
 .aboutme{
-    margin-top: 125px;
+    margin-top: 50px;
     width: 75%;
     font-size: 20px;
 }
