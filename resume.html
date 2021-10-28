@@ -11,13 +11,14 @@
 
       gtag('config', 'UA-211096948-1');
    </script>
-   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
    <link rel="stylesheet" href="CSS/style.css">
    <title>Alex's Webpage</title>
 
 </head>
 
 <body>
+   <!-- Navbar -->
    <div class="nav">
       <div class="dropdown">
          <button class="dropdownbtn">Class Links
@@ -37,22 +38,24 @@
 
 
 
-
+   <!--Resume-->
    <div class="resumepage">
       <div class="download">
-         <a href="files/Resumepdf.pdf" download> <button class="downloadbtn">Download as PDF</button></a>
+         <form action="files/Resumepdf.pdf" method="get">
+            <button class="downloadbtn">Download as PDF</button>
+         </form>
+
       </div>
       <iframe class="resume"
          src="https://docs.google.com/document/d/e/2PACX-1vR_HEEPtPaKbhGaRX7kUHDoGL3uxrFVIs3LVoH3cht8XxHoMN5AI_elFRQJvJu4n54sJqgZpLdXDiT0/pub?embedded=true"></iframe>
    </div>
 
-
+   <!--Footer-->
    <footer>
       <ul>
          <li> <a>Contact Me</a></li>
          <li>
-            <a href="https://github.com/AlexLaMattina"> <img class="footimg" src="images/github.png"
-                  alt="git">></a>
+            <a href="https://github.com/AlexLaMattina"> <img class="footimg" src="images/github.png" alt="git"></a>
             <a href="https://www.linkedin.com/in/alexandra-lamattina-6462811b6/"> <img class="footimg"
                   src="images/linkedin.png" alt="link"></a>
             <a href="mailto:alexlama@udel.edu"> <img class="footimg" src="images/mail.png" alt="mail"></a>

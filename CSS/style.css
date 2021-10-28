@@ -8,24 +8,24 @@ body {
     text-align:center; 
     background-color: rgb(235, 240, 245); 
     font-family:  'Courier New', Courier, monospace;
-    margin: 0px;
+    margin: 0%;
     
 }
 
-
+/*Navigation Bar*/
 .nav {
     background-color: #3b434d7a; 
     font-family: "Helvetica Neue", "Arial", sans-serif;
-    top: 0px;
+    top: 0%;
     width: 100%;
     overflow: hidden;
-    padding: 10px 10px;
+    padding: 1% 1%;
     z-index: 10000;
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
 
 }
 
-
+/*Text inside Navigation Bar*/
 .nav a {
     float: left; 
     color:black;
@@ -34,21 +34,24 @@ body {
     text-decoration: none;
     font-size: 20px;
 }
-  
+ 
+/*Hover color on Navigation Bar, dropdown, and dropdown button*/
 .nav a:hover, .dropdown:hover .dropdownbtn {
     background-color: rgba(221, 221, 221, 0.726);
 }
-  
+
+/*Active tab on Navigation Bar*/
 .nav a.active {
     background-color:rgba(221, 221, 221, 0.726);    
 }
 
-
+/*Dropdown in Navigation bar*/
 .dropdown {
     float: left;
     overflow: hidden;
 }
-  
+
+/*Dropdown in Navigation bar and button*/
 .dropdown .dropdownbtn {
     background-color: transparent;
     text-align: center;
@@ -60,11 +63,11 @@ body {
 
 }
 
+/*Dropdown content in Navigation bar*/
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
   z-index: 1;
 }
 
@@ -83,17 +86,18 @@ body {
 
 }
 
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-
+/*name heading*/
 h1 {
     text-align: center;
 }
 
 
-
+/* photo of myself*/
 .selfie{
     width: 600px;
     height: 400px;
@@ -102,6 +106,7 @@ h1 {
 
 }
 
+/*container of photo of myself*/
 .imgcontainer{
     text-align: left;
     overflow: hidden;
@@ -110,7 +115,7 @@ h1 {
 }
 
 
-
+/* contact form*/
 .conform {
     text-align: left;
     display: inline-block;
@@ -125,7 +130,7 @@ h1 {
 
 }
 
-
+/*input in contact form*/
 input[type=text], input[type=tel], input[type=email], input[type=submit]{
     width: 100%;
     padding: 12px 20px;
@@ -136,10 +141,12 @@ input[type=text], input[type=tel], input[type=email], input[type=submit]{
 
 }
 
+/*button in contact form*/
 input[type=submit]{
     cursor: pointer;
 }
 
+/*message area in contact form*/
 textarea {
     width: 100%;
     padding: 12px 20px;
@@ -161,11 +168,14 @@ footer {
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
 
 } 
+
+/*images in footer*/
 .footimg {
     height: 35px;
     width: 35px;
-    border-radius: 0px;
+    border-radius: 0%;
 }
+
 
 .resume {
     height: 995px;
@@ -177,11 +187,13 @@ footer {
     margin-bottom: 100px;
 }
 
+/*container for downlod button*/
 .download{
     margin: 50px;
     text-align: center;
 }
 
+/*multiple buttons style*/
 .downloadbtn{
     background-color: whitesmoke;
     color: black;
@@ -190,11 +202,14 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
+
+/*button hover style*/
 .downloadbtn:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
  
 }
 
+/*information container about me and projects*/ 
 .info{
     float: left;
     width: 50%;
@@ -202,45 +217,39 @@ footer {
     display: block;
 }
 
+/*style to put divs side by side*/
 .home:after, .projectdarien:after, .educationalmodel:after, .maizemaster:after{
     content: "";
     display: table;
     clear: both;
 }
 
-
-.name{
-    justify-content: center;
-    display: block;
-}
-
-
-
+/*about me paragraph container*/
 .aboutme{
     margin-top: 50px;
     width: 75%;
     font-size: 20px;
 }
 
-h2{
+h2 {
     margin: 0;
 }
+
+/*societe generale image*/
 .sgimg{
     height: 200px;
     width: 600px;
     margin-bottom: 100px;
 }
 
-.dashboard{
-    justify-content: left;
-
-}
+/*margins for last two projects*/
 .educationalmodel, .maizemaster{
     margin-top: 100px;
     margin-bottom: 100px;
 
 }
 
+/*image sizes*/
 .map,.model, .app{
     justify-content: left;
     height:400px;
@@ -248,13 +257,12 @@ h2{
 
 }
 
-
-
+/*list style*/
 ul{
     list-style: none;
     margin: none;
     padding: none;
-    padding-inline-start: 0px;
+    padding-inline-start: 0%;
 
 }
 
